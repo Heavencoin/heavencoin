@@ -12,12 +12,13 @@ packages:
 - "nsis"
 - "faketime"
 reference_datetime: "2011-01-30 00:00:00"
-remotes: []
+remotes:
+- "url": "https://github.com/Heavencoin/heavencoin.git"
+  "dir": "heavencoin"
 files:
 - "qt-win32-4.8.5-gitian-r7.zip"
 - "boost-win32-1.55.0-gitian-r6.zip"
 - "bitcoin08-deps-win32-gitian-r12.zip"
-- "heavencoin.zip"
 script: |
   #
   STAGING=$HOME/staging
@@ -30,11 +31,10 @@ script: |
   unzip ../build/bitcoin08-deps-win32-gitian-r12.zip
   cd $HOME/build/
   #
-  unzip heavencoin.zip
-  cp -r heavencoin $OUTDIR/src
-  cp -r litecoin nsis
   cd heavencoin
   export PATH=$STAGING/host/bin:$PATH
+  mkdir -p $OUTDIR/src
+  git archive HEAD | tar -x -C $OUTDIR/src
   cp $OUTDIR/src/doc/README_windows.txt $OUTDIR/readme.txt
   cp $OUTDIR/src/COPYING $OUTDIR/COPYING.txt
   export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
@@ -55,7 +55,8 @@ script: |
   mkdir $OUTDIR/daemon
   cp heavencoind.exe $OUTDIR/daemon
   cd ..
-  mv ../nsis .
+  mkdir nsis
+  git archive HEAD | tar -x -C nsis
   cd nsis/src
   mkdir ../release
   cp ../../release/* ../release/

@@ -19,7 +19,9 @@ packages:
 - "pkg-config"
 - "libpng12-dev"
 reference_datetime: "2011-01-30 00:00:00"
-remotes: []
+remotes:
+- "url": "https://github.com/Heavencoin/heavencoin.git"
+  "dir": "heavencoin"
 files:
 - "miniupnpc-1.9.20140401.tar.gz"
 - "qrencode-3.4.3.tar.bz2"
@@ -42,10 +44,9 @@ script: |
   make $MAKEOPTS install
   cd ..
   #
-  unzip heavencoin.zip
-  cp -r heavencoin $OUTDIR/sir
-  cp -r heavencoin nsis
   cd heavencoin
+  mkdir -p $OUTDIR/src
+  git archive HEAD | tar -x -C $OUTDIR/src
   cp $OUTDIR/src/doc/README.md $OUTDIR
   cp $OUTDIR/src/COPYING $OUTDIR
   cd src
