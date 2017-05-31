@@ -76,7 +76,7 @@ Installing the dependencies using MacPorts is very straightforward.
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:heavencoin-project/heavencoin.git heavencoin
+        git clone git@github.com:heavencoin/heavencoin.git heavencoin
         cd heavencoin
 
 2.  Build heavencoind:
@@ -111,7 +111,7 @@ Rerunning "openssl version" should now return the correct version.
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/heavencoin-project/heavencoin.git
+        git clone git@github.com:heavencoin/heavencoin.git heavencoin
         cd heavencoin
 
 2.  Modify source in order to pick up the `openssl` library.
@@ -137,7 +137,7 @@ Creating a release build
 A heavencoind binary is not included in the Heavencoin-Qt.app bundle. You can ignore
 this section if you are building `heavencoind` for your own use.
 
-If you are building `litecond` for others, your build machine should be set up
+If you are building `heavencoind` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:

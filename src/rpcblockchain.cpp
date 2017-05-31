@@ -106,8 +106,8 @@ Value settxfee(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 1)
         throw runtime_error(
-            "settxfee <amount HVC/KB>\n"
-            "<amount> is a real and is rounded to the nearest 0.00000001 HVC per KB");
+            "settxfee <amount HVC/kb>\n"
+            "<amount> is a real and is rounded to the nearest 0.00000001 HVC per kb");
 
     // Amount
     int64 nAmount = 0;

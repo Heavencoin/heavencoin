@@ -17,14 +17,14 @@
 	<key>CFBundleExecutable</key>
 	<string>Heavencoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.heavencoin.Heavencoin-Qt</string>
+	<string>com.heavencoin.Heavencoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.heavencoin.HeavencoinPayment</string>
+            <string>com.heavencoin.HeavencoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
               <string>heavencoin</string>

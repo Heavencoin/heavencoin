@@ -1,8 +1,9 @@
-Heavencoin 0.8.x BETA
-====================
+Heavencoin 1.2.1.0
+================
 
 Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Heavencoin Developers
+Copyright (c) 2011-2014 Litecoin Developers
+Copyright (c) 2014 Heavencoin Developers
 
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -30,7 +31,7 @@ Unpack the files into a directory and run:
 - bin/64/heavencoin-qt (GUI, 64-bit)
 - bin/64/heavencoind (headless, 64-bit)
 
-See the documentation at the [Heavencoin Wiki](http://heavencoin.info)
+See the documentation at the [Heavencoin website](http://www.heavencoin.com)
 for help and more information.
 
 

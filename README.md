@@ -1,24 +1,34 @@
 Heavencoin integration/staging tree
 ================================
 
+http://www.heavencoin.com
 
 Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-16 Heavencoin Developers
+Copyright (c) 2011-2014 Litecoin Developers
+Copyright (c) 2014 Heavencoin Developers
 
 What is Heavencoin?
 ----------------
 
-Heavencoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
+Heavencoin first started in January 2014 as a variant of Litecoin using Scrypt as
+the Proof-of-Work hash algorithm.
+ - 1 minute block target
+ - subsidy halves in 500,000 blocks
+ - ~109 billion total coins
+ - 100,000 coins per block
+ - Difficulty Retarget: Every block using Kimoto's gravity well.
 
-The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
+Heavencoin is in transition to its own designed Proof-of-Stake-Velocity (PoSV) which
+will replace Proof-of-Work (PoW) in second half of 2014.
+ - 1 minute block target
+ - subsidy halves every 50,000 blocks starting at block 140,000
+ - ~30 billion mined during the PoW era
+ - 5% annual interest once in PoSV era
+ - academic paper: http://www.heavencoin.com/papers/PoSV.pdf
+ - FAQs paper: http://www.heavencoin.com/papers/PoSV_FAQ.pdf
 
 For more information, as well as an immediately useable, binary version of
-the Heavencoin client sofware, see http://www.heavencoin.org.
+the Heavencoin client sofware, see http://www.heavencoin.com.
 
 License
 -------
@@ -36,7 +46,8 @@ If it is a simple/trivial/non-controversial change, then one of the Heavencoin
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
-submitter will be asked to start a discussion with the devs and community.
+submitter will be asked to start a discussion (if they haven't already) on the
+appropriate channels.
 
 The patch will be accepted if there is broad consensus that it is a good thing.
 Developers should expect to rework and resubmit patches if the code doesn't
@@ -69,4 +80,3 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
     ./heavencoin-qt_test
-

@@ -35,24 +35,25 @@ namespace Checkpoints
     // + Contains no strange transactions
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        (  0, uint256("0x9606f8b9634cf7c3a46c288d171a0634eefa917fc4b43e37d91d1b6cc4374a82"));
+        (     0, uint256("0x9606f8b9634cf7c3a46c288d171a0634eefa917fc4b43e37d91d1b6cc4374a82"))
+        ;
     static const CCheckpointData data = {
         &mapCheckpoints,
-        //1410516073, // * UNIX timestamp of last checkpoint block
-        //4896865,    // * total number of transactions between genesis and last checkpoint
+        //1402413126, // * UNIX timestamp of last checkpoint block
+        //775149,     // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
-       //7000.0     // * estimated number of transactions per day after checkpoint
+        //8000.0      // * estimated number of transactions per day after checkpoint
     };
 
     static MapCheckpoints mapCheckpointsTestnet =
         boost::assign::map_list_of
-        (   0, uint256("0x"))
+        ( 0, uint256("0x"))
         ;
     static const CCheckpointData dataTestnet = {
         &mapCheckpointsTestnet,
-        //1365458829,
-        //547,
-        //576
+        //1401378996,
+        //2,
+        //2000
     };
 
     const CCheckpointData &Checkpoints() {
@@ -64,6 +65,7 @@ namespace Checkpoints
 
     bool CheckBlock(int nHeight, const uint256& hash)
     {
+        if (fTestNet) return true; // Testnet has no checkpoints
         if (!GetBoolArg("-checkpoints", true))
             return true;
 
@@ -107,6 +109,7 @@ namespace Checkpoints
 
     int GetTotalBlocksEstimate()
     {
+        if (fTestNet) return 0; // Testnet has no checkpoints
         if (!GetBoolArg("-checkpoints", true))
             return 0;
 
@@ -117,6 +120,7 @@ namespace Checkpoints
 
     CBlockIndex* GetLastCheckpoint(const std::map<uint256, CBlockIndex*>& mapBlockIndex)
     {
+        if (fTestNet) return NULL; // Testnet has no checkpoints
         if (!GetBoolArg("-checkpoints", true))
             return NULL;
 

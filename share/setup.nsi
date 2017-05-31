@@ -5,9 +5,9 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.8.7.4
+!define VERSION 1.2.1.0
 !define COMPANY "Heavencoin project"
-!define URL http://www.heavencoin.org/
+!define URL http://www.heavencoin.com/
 
 # MUI Symbol Definitions
 !define MUI_ICON "../share/pixmaps/bitcoin.ico"
@@ -45,13 +45,13 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile heavencoin-${VERSION}-win32-setup.exe
+OutFile heavencoin-1.2.1.0-win32-setup.exe
 InstallDir $PROGRAMFILES\Heavencoin
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
-VIProductVersion ${VERSION}
+VIProductVersion 1.2.1.0
 VIAddVersionKey ProductName Heavencoin
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
