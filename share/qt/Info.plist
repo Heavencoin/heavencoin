@@ -3,7 +3,7 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>fujicoin.icns</string>
+	<string>heavencoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
@@ -15,19 +15,19 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>FujiCoin-Qt</string>
+	<string>Heavencoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.fujicoin.FujiCoin-Qt</string>
+	<string>org.heavencoin.Heavencoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.fujicoin.FujiCoinPayment</string>
+            <string>org.heavencoin.HeavencoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>fujicoin</string>
+              <string>heavencoin</string>
             </array>
           </dict>
         </array>

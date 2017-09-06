@@ -16,7 +16,8 @@ Heavencoin is a lite version of Bitcoin using Scrypt-N-Fixed as a proof-of-work 
  - Every block to retarget difficulty with Kimotos Gravity Well algorithm
  - Adopted the S-Curve theory to block reward
 
-
+For more information, as well as an immediately useable, binary version of
+the Heavencoin client sofware, see http://www.heavencoin.org/
 
 License
 -------

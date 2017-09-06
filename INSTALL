@@ -1,12 +1,12 @@
-Building FujiCoin
+Building Heavencoin
 
-See doc/readme-qt.rst for instructions on building FujiCoin-Qt,
+See doc/readme-qt.rst for instructions on building Heavencoin-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of FujiCoin.
+implementation of Heavencoin.
 
-See doc/build-*.txt for instructions on building fujicoind,
+See doc/build-*.txt for instructions on building heavencoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of FujiCoin.
+implementation of Heavencoin.
 
 Further build information and documentation is available at
-the official FujiCoin website, http://www.fujicoin.com
+the official Heavencoin website, http://www.heavencoin.com

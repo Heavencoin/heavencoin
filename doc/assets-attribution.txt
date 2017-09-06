@@ -56,8 +56,8 @@ Designer: Jonas Schnelli (based on the original bitcoin logo from Bitboy)
 License: MIT
 
 Icon: src/qt/res/images/splash.png, src/qt/res/images/splash_testnet.png
-      src/qt/res/src/fujicoin_testnet.png, src/qt/res/icons/fujicoin.icns
-      src/qt/res/icons/fujicoin.icns
+      src/qt/res/src/heavencoin_testnet.png, src/qt/res/icons/heavencoin.icns
+      src/qt/res/icons/heavencoin.icns
       
 Designer: Chris Webbs
 License: Creative Commons
