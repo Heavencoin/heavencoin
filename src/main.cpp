@@ -31,7 +31,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0xadb6d9cfd74075e7f91608add4bd2a2ea636f70856183086842667a1597714a0");
+uint256 hashGenesisBlock("0x1b1087df84df93978b86c5668ce393d72833b3548eafce784d67dfb3b48116b6");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Heavencoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2765,11 +2765,11 @@ bool LoadBlockIndex()
 {
     if (fTestNet)
     {
-        pchMessageStart[0] = 0x65; //
-        pchMessageStart[1] = 0x6B; //
-        pchMessageStart[2] = 0x78; //
-        pchMessageStart[3] = 0x63; //
-        hashGenesisBlock = uint256("0x96bd214d68bcbfe9c786c4da26cf71fb6bbb6f24032065bdf2f4cd2b003d9c72");
+        pchMessageStart[0] = 0xd2; //
+        pchMessageStart[1] = 0xc6; //
+        pchMessageStart[2] = 0xb4; //
+        pchMessageStart[3] = 0xdc; //
+        hashGenesisBlock = uint256("0x1b1087df84df93978b86c5668ce393d72833b3548eafce784d67dfb3b48116b6");
     }
 
     //
@@ -2811,13 +2811,13 @@ bool InitBlockIndex() {
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce = 2560786;
-        block.nTime = 1403910000;
+        block.nNonce = 219123;
+        block.nTime = 1495710975;
         
         if (fTestNet)
         {
-            block.nNonce = 3578955;
-            block.nTime = 1402725600;
+            block.nNonce = 219123;
+            block.nTime = 1495710975;
         }
 
         //// debug print
@@ -2825,7 +2825,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0xf951a273c3055d1bb36b4291e7f9edd491c2d435bd5737318ef8a643cab84b61"));
+        assert(block.hashMerkleRoot == uint256("0xca1e51c960b1bab692058adbf130c63233966b6a59573fd69fa9c65b74ed9bd9"));
 
 
         block.print();
