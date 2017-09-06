@@ -32,7 +32,7 @@ unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
 uint256 hashGenesisBlock("0xadb6d9cfd74075e7f91608add4bd2a2ea636f70856183086842667a1597714a0");
-static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // FujiCoin: starting difficulty is 1 / 2^12
+static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Heavencoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 uint256 nBestChainWork = 0;
@@ -65,7 +65,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "FujiCoin Signed Message:\n";
+const string strMessageMagic = "Heavencoin Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
@@ -356,7 +356,7 @@ unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans)
 
 bool CTxOut::IsDust() const
 {
-    // FujiCoin: IsDust() detection disabled, allows any valid dust to be relayed.
+    // Heavencoin: IsDust() detection disabled, allows any valid dust to be relayed.
     // The fees imposed on each dust txo is considered sufficient spam deterrant. 
     return false;
 }
@@ -613,7 +613,7 @@ int64 CTransaction::GetMinFee(unsigned int nBlockSize, bool fAllowFree,
             nMinFee = 0;
     }
 
-    // FujiCoin
+    // Heavencoin
     // To limit dust spam, add nBaseFee for each output less than DUST_SOFT_LIMIT
     BOOST_FOREACH(const CTxOut& txout, vout)
         if (txout.nValue < DUST_SOFT_LIMIT)
@@ -1062,7 +1062,7 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
     return pblock->GetHash();
 }
 
-// FujiCoin: Fixed N-factor
+// Heavencoin: Fixed N-factor
 const unsigned char minNfactor = 10;
 const unsigned char maxNfactor = 30;
 
@@ -1080,9 +1080,9 @@ int64 static GetBlockValue(int nHeight, int64 nFees) {
     int64 nSubsidy = 1 * COIN;
 
     if (nHeight == 1) {
-        nSubsidy = 50000000 * COIN;
+        nSubsidy = 65000000 * COIN;
     } else if (nHeight == 2) {
-        nSubsidy = 50000000 * COIN;
+        nSubsidy = 65000000 * COIN;
     } else if (nHeight == 3) {
         nSubsidy = 60305704 * COIN;
     } else if (nHeight >= 4 && nHeight <= 780) {
@@ -1111,8 +1111,8 @@ int64 static GetBlockValue(int nHeight, int64 nFees) {
 
 
 
-static const int64 nTargetTimespan = 1 * 24 * 60 * 60; // FujiCoin: 1 day
-static const int64 nTargetSpacing = 1 * 60; // FujiCoin: 1 minute
+static const int64 nTargetTimespan = 10 * 30; // Heavencoin 5min
+static const int64 nTargetSpacing = 1 * 30; // Heavencoin  5sec
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
@@ -2122,7 +2122,7 @@ bool CBlock::CheckBlock(CValidationState &state, bool fCheckPOW, bool fCheckMerk
     if (vtx.empty() || vtx.size() > MAX_BLOCK_SIZE || ::GetSerializeSize(*this, SER_NETWORK, PROTOCOL_VERSION) > MAX_BLOCK_SIZE)
         return state.DoS(100, error("CheckBlock() : size limits failed"));
 
-    // FujiCoin: Special short-term limits to avoid 10,000 BDB lock limit:
+    // Heavencoin: Special short-term limits to avoid 10,000 BDB lock limit:
     if (GetBlockTime() < 1376568000)  // stop enforcing 15 August 2013 00:00:00
     {
         // Rule is: #unique txids referenced <= 4,500
@@ -2284,7 +2284,7 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
 
 bool CBlockIndex::IsSuperMajority(int minVersion, const CBlockIndex* pstart, unsigned int nRequired, unsigned int nToCheck)
 {
-    // FujiCoin: temporarily disable v2 block lockin until we are ready for v2 transition
+    // Heavencoin: temporarily disable v2 block lockin until we are ready for v2 transition
     return false;
     unsigned int nFound = 0;
     for (unsigned int i = 0; i < nToCheck && nFound < nRequired && pstart != NULL; i++)
@@ -2765,10 +2765,10 @@ bool LoadBlockIndex()
 {
     if (fTestNet)
     {
-        pchMessageStart[0] = 0x69; //i
-        pchMessageStart[1] = 0x6A; //j
-        pchMessageStart[2] = 0x75; //u
-        pchMessageStart[3] = 0x66; //f
+        pchMessageStart[0] = 0x65; //
+        pchMessageStart[1] = 0x6B; //
+        pchMessageStart[2] = 0x78; //
+        pchMessageStart[3] = 0x63; //
         hashGenesisBlock = uint256("0x96bd214d68bcbfe9c786c4da26cf71fb6bbb6f24032065bdf2f4cd2b003d9c72");
     }
 
@@ -2796,7 +2796,7 @@ bool InitBlockIndex() {
     if (!fReindex) {
 
         // Genesis block
-        const char* pszTimestamp = "Mount Fuji is the most beautiful mountain in Japan, altitude is 3776.24m";
+        const char* pszTimestamp = "This is Heavencoin";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -3100,7 +3100,7 @@ bool static AlreadyHave(const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
-unsigned char pchMessageStart[4] = { 0x66, 0x75, 0x6A, 0x69 }; // FujiCoin
+unsigned char pchMessageStart[4] = { 0x66, 0x75, 0x6A, 0x69 }; // Heavencoin
 
 
 void static ProcessGetData(CNode* pfrom)
@@ -4142,7 +4142,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// FujiCoinMiner
+// HeavencoinMiner
 //
 
 int static FormatHashBlocks(void* pbuffer, unsigned int len)
@@ -4555,7 +4555,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         return false;
 
     //// debug print
-    printf("FujiCoinMiner:\n");
+    printf("HeavencoinMiner:\n");
     printf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
     pblock->print();
     printf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue).c_str());
@@ -4564,7 +4564,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("FujiCoinMiner : generated block is stale");
+            return error("HeavencoinMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4578,17 +4578,17 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("FujiCoinMiner : ProcessBlock, block not accepted");
+            return error("HeavencoinMiner : ProcessBlock, block not accepted");
     }
 
     return true;
 }
 
-void static FujiCoinMiner(CWallet *pwallet)
+void static HeavencoinMiner(CWallet *pwallet)
 {
-    printf("FujiCoinMiner started\n");
+    printf("HeavencoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("fujicoin-miner");
+    RenameThread("heavencoin-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -4610,7 +4610,7 @@ void static FujiCoinMiner(CWallet *pwallet)
         CBlock *pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        printf("Running FujiCoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
+        printf("Running HeavencoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -4721,7 +4721,7 @@ void static FujiCoinMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        printf("FujiCoinMiner terminated\n");
+        printf("HeavencoinMiner terminated\n");
         throw;
     }
 }
@@ -4746,7 +4746,7 @@ void GenerateBitcoins(bool fGenerate, CWallet* pwallet)
 
     minerThreads = new boost::thread_group();
     for (int i = 0; i < nThreads; i++)
-        minerThreads->create_thread(boost::bind(&FujiCoinMiner, pwallet));
+        minerThreads->create_thread(boost::bind(&HeavencoinMiner, pwallet));
 }
 
 // Amount compression:

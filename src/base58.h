@@ -272,9 +272,9 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 36, // FujiCoin addresses start with F
-        SCRIPT_ADDRESS = 16, // 7
-        PUBKEY_ADDRESS_TEST = 74,
+        PUBKEY_ADDRESS = 40, // Heavencoin addresses start with H
+        SCRIPT_ADDRESS = 5, // 
+        PUBKEY_ADDRESS_TEST = 111,
         SCRIPT_ADDRESS_TEST = 196,
     };
 

@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About FujiCoin</source>
+        <source>About Heavencoin</source>
         <translation>O Litecoinu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;FujiCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;FujiCoin&lt;/b&gt; verze</translation>
+        <source>&lt;b&gt;Heavencoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Heavencoin&lt;/b&gt; verze</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,7 +34,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+0"/>
-        <source>The FujiCoin developers</source>
+        <source>The Heavencoin developers</source>
         <translation>Vývojáři Litecoinu</translation>
     </message>
 </context>
@@ -67,7 +67,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your FujiCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Heavencoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Tohle jsou tvé Litecoinové adresy pro příjem plateb. Můžeš dát pokaždé každému plátci novou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
     </message>
     <message>
@@ -82,7 +82,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a FujiCoin address</source>
+        <source>Sign a message to prove you own a Heavencoin address</source>
         <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem Litecoinové adresy</translation>
     </message>
     <message>
@@ -107,7 +107,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified FujiCoin address</source>
+        <source>Verify a message to ensure it was signed with a specified Heavencoin address</source>
         <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Litecoinovou adresou</translation>
     </message>
     <message>
@@ -122,7 +122,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your FujiCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Heavencoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Tohle jsou tvé Litecoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
@@ -275,8 +275,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-56"/>
-        <source>FujiCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>FujiCoin se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých litecoinů malwarem, kterým se může počítač nakazit.</translation>
+        <source>Heavencoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Heavencoin se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých litecoinů malwarem, kterým se může počítač nakazit.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,7 +374,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about FujiCoin</source>
+        <source>Show information about Heavencoin</source>
         <translation>Zobraz informace o Litecoinu</translation>
     </message>
     <message>
@@ -419,12 +419,12 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a FujiCoin address</source>
+        <source>Send coins to a Heavencoin address</source>
         <translation>Pošli mince na Litecoinovou adresu</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for FujiCoin</source>
+        <source>Modify configuration options for Heavencoin</source>
         <translation>Uprav nastavení Litecoinu</translation>
     </message>
     <message>
@@ -455,8 +455,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>FujiCoin</source>
-        <translation>FujiCoin</translation>
+        <source>Heavencoin</source>
+        <translation>Heavencoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,7 +480,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About FujiCoin</source>
+        <source>&amp;About Heavencoin</source>
         <translation>O &amp;Litecoinu</translation>
     </message>
     <message>
@@ -500,12 +500,12 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your FujiCoin addresses to prove you own them</source>
+        <source>Sign messages with your Heavencoin addresses to prove you own them</source>
         <translation>Podepiš zprávy svými Litecoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified FujiCoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Heavencoin addresses</source>
         <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými Litecoinovými adresami</translation>
     </message>
     <message>
@@ -536,12 +536,12 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+47"/>
-        <source>FujiCoin client</source>
-        <translation>FujiCoin klient</translation>
+        <source>Heavencoin client</source>
+        <translation>Heavencoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to FujiCoin network</source>
+        <source>%n active connection(s) to Heavencoin network</source>
         <translation><numerusform>%n aktivní spojení do Litecoinové sítě</numerusform><numerusform>%n aktivní spojení do Litecoinové sítě</numerusform><numerusform>%n aktivních spojení do Litecoinové sítě</numerusform></translation>
     </message>
     <message>
@@ -656,7 +656,7 @@ Adresa: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid FujiCoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Heavencoin address or malformed URI parameters.</source>
         <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná Litecoinová adresa nebo poškozené parametry URI.</translation>
     </message>
     <message>
@@ -671,8 +671,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. FujiCoin can no longer continue safely and will quit.</source>
-        <translation>Stala se fatální chyba. FujiCoin nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <source>A fatal error occurred. Heavencoin can no longer continue safely and will quit.</source>
+        <translation>Stala se fatální chyba. Heavencoin nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
 </context>
 <context>
@@ -737,7 +737,7 @@ Adresa: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid FujiCoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Heavencoin address.</source>
         <translation>Zadaná adresa &quot;%1&quot; není platná Litecoinová adresa.</translation>
     </message>
     <message>
@@ -756,8 +756,8 @@ Adresa: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>FujiCoin-Qt</source>
-        <translation>FujiCoin-Qt</translation>
+        <source>Heavencoin-Qt</source>
+        <translation>Heavencoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adresa: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start FujiCoin after logging in to the system.</source>
-        <translation>Automaticky spustí FujiCoin po přihlášení do systému.</translation>
+        <source>Automatically start Heavencoin after logging in to the system.</source>
+        <translation>Automaticky spustí Heavencoin po přihlášení do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start FujiCoin on system login</source>
-        <translation>S&amp;pustit FujiCoin po přihlášení do systému</translation>
+        <source>&amp;Start Heavencoin on system login</source>
+        <translation>S&amp;pustit Heavencoin po přihlášení do systému</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,7 +844,7 @@ Adresa: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the FujiCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Heavencoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
@@ -854,7 +854,7 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the FujiCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Heavencoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Připojí se do Litecoinové sítě přes SOCKS proxy (např. když se připojuje přes Tor).</translation>
     </message>
     <message>
@@ -929,7 +929,7 @@ Adresa: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting FujiCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Heavencoin.</source>
         <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování Litecoinu.</translation>
     </message>
     <message>
@@ -944,7 +944,7 @@ Adresa: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show FujiCoin addresses in the transaction list or not.</source>
+        <source>Whether to show Heavencoin addresses in the transaction list or not.</source>
         <translation>Zda ukazovat litecoinové adresy ve výpisu transakcí nebo ne.</translation>
     </message>
     <message>
@@ -996,7 +996,7 @@ Adresa: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting FujiCoin.</source>
+        <source>This setting will take effect after restarting Heavencoin.</source>
         <translation>Nastavení se projeví až po restartování Litecoinu.</translation>
     </message>
     <message>
@@ -1015,7 +1015,7 @@ Adresa: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FujiCoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Heavencoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s Litecoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
@@ -1069,8 +1069,8 @@ Adresa: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start fujicoin: click-to-pay handler</source>
-        <translation>Nemůžu spustit fujicoin: obsluha click-to-pay</translation>
+        <source>Cannot start heavencoin: click-to-pay handler</source>
+        <translation>Nemůžu spustit heavencoin: obsluha click-to-pay</translation>
     </message>
 </context>
 <context>
@@ -1219,7 +1219,7 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the FujiCoin-Qt help message to get a list with possible FujiCoin command-line options.</source>
+        <source>Show the Heavencoin-Qt help message to get a list with possible Heavencoin command-line options.</source>
         <translation>Seznam parametrů Litecoinu pro příkazovou řádku získáš v nápovědě Litecoinu Qt.</translation>
     </message>
     <message>
@@ -1239,12 +1239,12 @@ Adresa: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>FujiCoin - Debug window</source>
-        <translation>FujiCoin - ladicí okno</translation>
+        <source>Heavencoin - Debug window</source>
+        <translation>Heavencoin - ladicí okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>FujiCoin Core</source>
+        <source>Heavencoin Core</source>
         <translation>Jádro Litecoinu</translation>
     </message>
     <message>
@@ -1254,7 +1254,7 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the FujiCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Heavencoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Otevři soubor s ladicími záznamy Litecoinu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
     </message>
     <message>
@@ -1264,7 +1264,7 @@ Adresa: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the FujiCoin RPC console.</source>
+        <source>Welcome to the Heavencoin RPC console.</source>
         <translation>Vítej v Litecoinové RPC konzoli.</translation>
     </message>
     <message>
@@ -1448,7 +1448,7 @@ Adresa: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a FujiCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a Heavencoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>Zadej Litecoinovou adresu (např. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
@@ -1513,7 +1513,7 @@ Adresa: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this FujiCoin address</source>
+        <source>Sign the message to prove you own this Heavencoin address</source>
         <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této Litecoinové adresy</translation>
     </message>
     <message>
@@ -1549,7 +1549,7 @@ Adresa: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified FujiCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Heavencoin address</source>
         <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Litecoinovou adresou</translation>
     </message>
     <message>
@@ -1565,7 +1565,7 @@ Adresa: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a FujiCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a Heavencoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>Zadej Litecoinovou adresu (např. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
@@ -1575,7 +1575,7 @@ Adresa: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter FujiCoin signature</source>
+        <source>Enter Heavencoin signature</source>
         <translation>Vlož Litecoinový podpis</translation>
     </message>
     <message>
@@ -1649,7 +1649,7 @@ Adresa: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The FujiCoin developers</source>
+        <source>The Heavencoin developers</source>
         <translation>Vývojáři Litecoinu</translation>
     </message>
     <message>
@@ -2187,7 +2187,7 @@ Adresa: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>FujiCoin version</source>
+        <source>Heavencoin version</source>
         <translation>Verze Litecoinu</translation>
     </message>
     <message>
@@ -2217,8 +2217,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: fujicoin.conf)</source>
-        <translation>Konfigurační soubor (výchozí: fujicoin.conf)</translation>
+        <source>Specify configuration file (default: heavencoin.conf)</source>
+        <translation>Konfigurační soubor (výchozí: heavencoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2306,7 +2306,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;FujiCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Heavencoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíš nastavit rpcpassword v konfiguračním souboru:
 %s
@@ -2317,7 +2317,7 @@ rpcpassword=%s
 rpcuser a rpcpassword NESMÍ být stejné.
 Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl číst pouze vlastník.
 Je také doporučeno si nastavit alertnotify, abys byl upozorněn na případné problémy;
-například: alertnotify=echo %%s | mail -s &quot;FujiCoin Alert&quot; admin@foo.com
+například: alertnotify=echo %%s | mail -s &quot;Heavencoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,8 +2332,8 @@ například: alertnotify=echo %%s | mail -s &quot;FujiCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. FujiCoin is probably already running.</source>
-        <translation>Nedaří se mi získat zámek na datový adresář %s. FujiCoin pravděpodobně už jednou běží.</translation>
+        <source>Cannot obtain a lock on data directory %s. Heavencoin is probably already running.</source>
+        <translation>Nedaří se mi získat zámek na datový adresář %s. Heavencoin pravděpodobně už jednou běží.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ například: alertnotify=echo %%s | mail -s &quot;FujiCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong FujiCoin will not work properly.</source>
-        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, FujiCoin nebude fungovat správně.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Heavencoin will not work properly.</source>
+        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, Heavencoin nebude fungovat správně.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ například: alertnotify=echo %%s | mail -s &quot;FujiCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the FujiCoin Wiki for SSL setup instructions)</source>
-        <translation>Možnosti SSL: (viz instrukce nastavení SSL v FujiCoin Wiki)</translation>
+        <source>SSL options: (see the Heavencoin Wiki for SSL setup instructions)</source>
+        <translation>Možnosti SSL: (viz instrukce nastavení SSL v Heavencoin Wiki)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ například: alertnotify=echo %%s | mail -s &quot;FujiCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of FujiCoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Heavencoin</source>
         <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi Litecoinu</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart FujiCoin to complete</source>
-        <translation>Soubor s peněženkou potřeboval přepsat: restartuj FujiCoin, aby se operace dokončila</translation>
+        <source>Wallet needed to be rewritten: restart Heavencoin to complete</source>
+        <translation>Soubor s peněženkou potřeboval přepsat: restartuj Heavencoin, aby se operace dokončila</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ například: alertnotify=echo %%s | mail -s &quot;FujiCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. FujiCoin is probably already running.</source>
-        <translation>Nedaří se mi připojit na %s na tomhle počítači. FujiCoin už pravděpodobně jednou běží.</translation>
+        <source>Unable to bind to %s on this computer. Heavencoin is probably already running.</source>
+        <translation>Nedaří se mi připojit na %s na tomhle počítači. Heavencoin už pravděpodobně jednou běží.</translation>
     </message>
     <message>
         <location line="+64"/>

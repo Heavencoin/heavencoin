@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About FujiCoin</source>
-        <translation>Acerca de FujiCoin</translation>
+        <source>About Heavencoin</source>
+        <translation>Acerca de Heavencoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;FujiCoin&lt;/b&gt; version</source>
-        <translation>Versión de &lt;b&gt;FujiCoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Heavencoin&lt;/b&gt; version</source>
+        <translation>Versión de &lt;b&gt;Heavencoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -37,8 +37,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+0"/>
-        <source>The FujiCoin developers</source>
-        <translation>Los programadores FujiCoin</translation>
+        <source>The Heavencoin developers</source>
+        <translation>Los programadores Heavencoin</translation>
     </message>
 </context>
 <context>
@@ -70,8 +70,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your FujiCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estas son sus direcciones FujiCoin para recibir pagos. Puede utilizar una diferente por cada persona emisora para saber quién le está pagando.</translation>
+        <source>These are your Heavencoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estas son sus direcciones Heavencoin para recibir pagos. Puede utilizar una diferente por cada persona emisora para saber quién le está pagando.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -85,8 +85,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a FujiCoin address</source>
-        <translation>Firmar un mensaje para demostrar que se posee una dirección FujiCoin</translation>
+        <source>Sign a message to prove you own a Heavencoin address</source>
+        <translation>Firmar un mensaje para demostrar que se posee una dirección Heavencoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -110,8 +110,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified FujiCoin address</source>
-        <translation>Verificar un mensaje para comprobar que fue firmado con la dirección FujiCoin indicada</translation>
+        <source>Verify a message to ensure it was signed with a specified Heavencoin address</source>
+        <translation>Verificar un mensaje para comprobar que fue firmado con la dirección Heavencoin indicada</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -125,8 +125,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your FujiCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones FujiCoin para enviar pagos. Compruebe siempre la cantidad y la dirección receptora antes de transferir monedas.</translation>
+        <source>These are your Heavencoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son sus direcciones Heavencoin para enviar pagos. Compruebe siempre la cantidad y la dirección receptora antes de transferir monedas.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -278,8 +278,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-56"/>
-        <source>FujiCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>FujiCoin se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus litecoins de robo por malware que infecte su sistema.</translation>
+        <source>Heavencoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Heavencoin se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus litecoins de robo por malware que infecte su sistema.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about FujiCoin</source>
-        <translation>Mostrar información acerca de FujiCoin</translation>
+        <source>Show information about Heavencoin</source>
+        <translation>Mostrar información acerca de Heavencoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -422,13 +422,13 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a FujiCoin address</source>
-        <translation>Enviar monedas a una dirección FujiCoin</translation>
+        <source>Send coins to a Heavencoin address</source>
+        <translation>Enviar monedas a una dirección Heavencoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for FujiCoin</source>
-        <translation>Modificar las opciones de configuración de FujiCoin</translation>
+        <source>Modify configuration options for Heavencoin</source>
+        <translation>Modificar las opciones de configuración de Heavencoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -458,8 +458,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>FujiCoin</source>
-        <translation>FujiCoin</translation>
+        <source>Heavencoin</source>
+        <translation>Heavencoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -483,8 +483,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About FujiCoin</source>
-        <translation>&amp;Acerca de FujiCoin</translation>
+        <source>&amp;About Heavencoin</source>
+        <translation>&amp;Acerca de Heavencoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -503,13 +503,13 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your FujiCoin addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones FujiCoin para demostrar la propiedad</translation>
+        <source>Sign messages with your Heavencoin addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones Heavencoin para demostrar la propiedad</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified FujiCoin addresses</source>
-        <translation>Verificar mensajes comprobando que están firmados con direcciones FujiCoin concretas</translation>
+        <source>Verify messages to ensure they were signed with specified Heavencoin addresses</source>
+        <translation>Verificar mensajes comprobando que están firmados con direcciones Heavencoin concretas</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -539,13 +539,13 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+47"/>
-        <source>FujiCoin client</source>
-        <translation>Cliente FujiCoin</translation>
+        <source>Heavencoin client</source>
+        <translation>Cliente Heavencoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to FujiCoin network</source>
-        <translation><numerusform>%n conexión activa hacia la red FujiCoin</numerusform><numerusform>%n conexiones activas hacia la red FujiCoin</numerusform></translation>
+        <source>%n active connection(s) to Heavencoin network</source>
+        <translation><numerusform>%n conexión activa hacia la red Heavencoin</numerusform><numerusform>%n conexiones activas hacia la red Heavencoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -659,8 +659,8 @@ Dirección: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid FujiCoin address or malformed URI parameters.</source>
-        <translation>¡No se puede interpretar la URI! Esto puede deberse a una dirección FujiCoin inválida o a parámetros de URI mal formados.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Heavencoin address or malformed URI parameters.</source>
+        <translation>¡No se puede interpretar la URI! Esto puede deberse a una dirección Heavencoin inválida o a parámetros de URI mal formados.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -674,8 +674,8 @@ Dirección: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. FujiCoin can no longer continue safely and will quit.</source>
-        <translation>Ha ocurrido un error crítico. FujiCoin ya no puede continuar con seguridad y se cerrará.</translation>
+        <source>A fatal error occurred. Heavencoin can no longer continue safely and will quit.</source>
+        <translation>Ha ocurrido un error crítico. Heavencoin ya no puede continuar con seguridad y se cerrará.</translation>
     </message>
 </context>
 <context>
@@ -740,8 +740,8 @@ Dirección: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid FujiCoin address.</source>
-        <translation>La dirección introducida &quot;%1&quot; no es una dirección FujiCoin válida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Heavencoin address.</source>
+        <translation>La dirección introducida &quot;%1&quot; no es una dirección Heavencoin válida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -759,8 +759,8 @@ Dirección: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>FujiCoin-Qt</source>
-        <translation>FujiCoin-Qt</translation>
+        <source>Heavencoin-Qt</source>
+        <translation>Heavencoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -822,13 +822,13 @@ Dirección: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start FujiCoin after logging in to the system.</source>
-        <translation>Iniciar FujiCoin automáticamente al encender el sistema.</translation>
+        <source>Automatically start Heavencoin after logging in to the system.</source>
+        <translation>Iniciar Heavencoin automáticamente al encender el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start FujiCoin on system login</source>
-        <translation>&amp;Iniciar FujiCoin al iniciar el sistema</translation>
+        <source>&amp;Start Heavencoin on system login</source>
+        <translation>&amp;Iniciar Heavencoin al iniciar el sistema</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -847,8 +847,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the FujiCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente FujiCoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the Heavencoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Heavencoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -857,8 +857,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the FujiCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conectar a la red FujiCoin a través de un proxy SOCKS (ej. para conectar con la red Tor)</translation>
+        <source>Connect to the Heavencoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conectar a la red Heavencoin a través de un proxy SOCKS (ej. para conectar con la red Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -932,8 +932,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting FujiCoin.</source>
-        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará cuando se reinicie FujiCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Heavencoin.</source>
+        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará cuando se reinicie Heavencoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -947,8 +947,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show FujiCoin addresses in the transaction list or not.</source>
-        <translation>Mostrar o no las direcciones FujiCoin en la lista de transacciones.</translation>
+        <source>Whether to show Heavencoin addresses in the transaction list or not.</source>
+        <translation>Mostrar o no las direcciones Heavencoin en la lista de transacciones.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -999,8 +999,8 @@ Dirección: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting FujiCoin.</source>
-        <translation>Esta configuración tendrá efecto tras reiniciar FujiCoin.</translation>
+        <source>This setting will take effect after restarting Heavencoin.</source>
+        <translation>Esta configuración tendrá efecto tras reiniciar Heavencoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1018,8 +1018,8 @@ Dirección: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FujiCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red FujiCoin después de que se haya establecido una conexión , pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Heavencoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Heavencoin después de que se haya establecido una conexión , pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1072,8 +1072,8 @@ Dirección: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start fujicoin: click-to-pay handler</source>
-        <translation>No se pudo iniciar fujicoin: manejador de pago-al-clic</translation>
+        <source>Cannot start heavencoin: click-to-pay handler</source>
+        <translation>No se pudo iniciar heavencoin: manejador de pago-al-clic</translation>
     </message>
 </context>
 <context>
@@ -1222,8 +1222,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the FujiCoin-Qt help message to get a list with possible FujiCoin command-line options.</source>
-        <translation>Mostrar el mensaje de ayuda de FujiCoin-Qt que enumera las opciones disponibles de línea de órdenes para FujiCoin.</translation>
+        <source>Show the Heavencoin-Qt help message to get a list with possible Heavencoin command-line options.</source>
+        <translation>Mostrar el mensaje de ayuda de Heavencoin-Qt que enumera las opciones disponibles de línea de órdenes para Heavencoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1242,13 +1242,13 @@ Dirección: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>FujiCoin - Debug window</source>
-        <translation>FujiCoin - Ventana de depuración</translation>
+        <source>Heavencoin - Debug window</source>
+        <translation>Heavencoin - Ventana de depuración</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>FujiCoin Core</source>
-        <translation>Núcleo de FujiCoin</translation>
+        <source>Heavencoin Core</source>
+        <translation>Núcleo de Heavencoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1257,7 +1257,7 @@ Dirección: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the FujiCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Heavencoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abrir el archivo de registro de depuración en el directorio actual de datos. Esto puede llevar varios segundos para archivos de registro grandes.</translation>
     </message>
     <message>
@@ -1267,8 +1267,8 @@ Dirección: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the FujiCoin RPC console.</source>
-        <translation>Bienvenido a la consola RPC de FujiCoin</translation>
+        <source>Welcome to the Heavencoin RPC console.</source>
+        <translation>Bienvenido a la consola RPC de Heavencoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1451,8 +1451,8 @@ Dirección: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a FujiCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduzca una dirección FujiCoin (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Heavencoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduzca una dirección Heavencoin (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1516,8 +1516,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this FujiCoin address</source>
-        <translation>Firmar el mensaje para demostrar que se posee esta dirección FujiCoin</translation>
+        <source>Sign the message to prove you own this Heavencoin address</source>
+        <translation>Firmar el mensaje para demostrar que se posee esta dirección Heavencoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1552,8 +1552,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified FujiCoin address</source>
-        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección FujiCoin indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified Heavencoin address</source>
+        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Heavencoin indicada</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1568,8 +1568,8 @@ Dirección: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a FujiCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduzca una dirección FujiCoin (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Heavencoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduzca una dirección Heavencoin (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1578,8 +1578,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter FujiCoin signature</source>
-        <translation>Introduzca una firma FujiCoin</translation>
+        <source>Enter Heavencoin signature</source>
+        <translation>Introduzca una firma Heavencoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1652,8 +1652,8 @@ Dirección: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The FujiCoin developers</source>
-        <translation>Los programadores FujiCoin</translation>
+        <source>The Heavencoin developers</source>
+        <translation>Los programadores Heavencoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2190,8 +2190,8 @@ Dirección: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>FujiCoin version</source>
-        <translation>Versión de FujiCoin</translation>
+        <source>Heavencoin version</source>
+        <translation>Versión de Heavencoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2223,14 +2223,14 @@ Dirección: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: fujicoin.conf)</source>
-        <translation>Especificar archivo de configuración (predeterminado: fujicoin.conf)
+        <source>Specify configuration file (default: heavencoin.conf)</source>
+        <translation>Especificar archivo de configuración (predeterminado: heavencoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Specify pid file (default: litecoind.pid)</source>
-        <translation>Especificar archivo pid (predeterminado: fujicoin.pid)
+        <translation>Especificar archivo pid (predeterminado: heavencoin.pid)
 </translation>
     </message>
     <message>
@@ -2317,7 +2317,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;FujiCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Heavencoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, debe establecer un valor rpcpassword en el archivo de configuración:
 %s
@@ -2328,7 +2328,7 @@ rpcpassword=%s
 El nombre de usuario y la contraseña DEBEN NO ser iguales.
 Si el archivo no existe, créelo con permisos de archivo de solo lectura.
 Se recomienda también establecer alertnotify para recibir notificaciones de problemas.
-Por ejemplo: alertnotify=echo %%s | mail -s &quot;FujiCoin Alert&quot; admin@foo.com
+Por ejemplo: alertnotify=echo %%s | mail -s &quot;Heavencoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2343,8 +2343,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;FujiCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. FujiCoin is probably already running.</source>
-        <translation>No se puede bloquear el directorio de datos %s. Probablemente FujiCoin ya se está ejecutando.</translation>
+        <source>Cannot obtain a lock on data directory %s. Heavencoin is probably already running.</source>
+        <translation>No se puede bloquear el directorio de datos %s. Probablemente Heavencoin ya se está ejecutando.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2388,8 +2388,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;FujiCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong FujiCoin will not work properly.</source>
-        <translation>Precaución: Por favor, ¡revise que la fecha y hora de su ordenador son correctas! Si su reloj está mal, FujiCoin no funcionará correctamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Heavencoin will not work properly.</source>
+        <translation>Precaución: Por favor, ¡revise que la fecha y hora de su ordenador son correctas! Si su reloj está mal, Heavencoin no funcionará correctamente.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2638,8 +2638,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;FujiCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the FujiCoin Wiki for SSL setup instructions)</source>
-        <translation>Opciones SSL: (ver la FujiCoin Wiki para instrucciones de configuración SSL)</translation>
+        <source>SSL options: (see the Heavencoin Wiki for SSL setup instructions)</source>
+        <translation>Opciones SSL: (ver la Heavencoin Wiki para instrucciones de configuración SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2838,13 +2838,13 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;FujiCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of FujiCoin</source>
-        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de FujiCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Heavencoin</source>
+        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Heavencoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart FujiCoin to complete</source>
-        <translation>El monedero ha necesitado ser reescrito. Reinicie FujiCoin para completar el proceso</translation>
+        <source>Wallet needed to be rewritten: restart Heavencoin to complete</source>
+        <translation>El monedero ha necesitado ser reescrito. Reinicie Heavencoin para completar el proceso</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2903,8 +2903,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;FujiCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. FujiCoin is probably already running.</source>
-        <translation>No es posible conectar con %s en este sistema. Probablemente FujiCoin ya está ejecutándose.</translation>
+        <source>Unable to bind to %s on this computer. Heavencoin is probably already running.</source>
+        <translation>No es posible conectar con %s en este sistema. Probablemente Heavencoin ya está ejecutándose.</translation>
     </message>
     <message>
         <location line="+64"/>
