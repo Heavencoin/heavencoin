@@ -1,7 +1,7 @@
 Heavencoin integration/staging tree
 ================================
 
-http://www.heavencoin.com
+https://www.heavencoins.com
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
@@ -10,10 +10,10 @@ Copyright (c) 2016 Heavencoin Developers
 What is Heavencoin?
 ----------------
 
-Heavencoin first started in January 2017 as a variant of Litecoin using Scrypt as
+Heavencoin first started in November 2016 as a variant of Litecoin using Scrypt as
 the Proof-of-Work hash algorithm.
  - 1 minute block target
- - 10,000,000,000 coins 
+ - 10 000 000 000 coins 
  - Difficulty Retarget: Every block using Kimoto's gravity well.
 
 Heavencoin is in transition to its own designed Proof-of-Stake-Velocity (PoSV) 
