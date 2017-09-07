@@ -1099,12 +1099,12 @@ int64 static GetBlockValue(int nHeight, int64 nFees) {
     int64 nSubsidy = 1 * COIN;
 
     if (nHeight == 1) {
-        nSubsidy = 500000000 * COIN;
-    } else if (nHeight == 5) {
-        nSubsidy = 550000000 * COIN;
-    } else if (nHeight == 8) {
-        nSubsidy = 600305704 * COIN;
-    } else if (nHeight >= 21 && nHeight <= 780) {
+        nSubsidy = 4000000000 * COIN;
+    } else if (nHeight == 2) {
+        nSubsidy = 3000000000 * COIN;
+    } else if (nHeight == 3) {
+        nSubsidy = 3200000000 * COIN;
+    } else if (nHeight >= 4 && nHeight <= 780) {
         nSubsidy = 1 * COIN;
     } else {
         // S-Curve theory: Gompertz curve
@@ -2874,7 +2874,7 @@ bool InitBlockIndex() {
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].nValue = 50 * COIN;
+        txNew.vout[0].nValue = 1 * COIN;
         txNew.vout[0].scriptPubKey = CScript() << ParseHex("284684710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") << OP_CHECKSIG;
         CBlock block;
         block.vtx.push_back(txNew);
@@ -2897,36 +2897,7 @@ bool InitBlockIndex() {
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
         assert(block.hashMerkleRoot == uint256("0x9ad68d3da4f53afecff2a2144a50cae7cdca35fc2f7613d7a0d83be3d15ba733"));
-if (true && block.GetHash() != hashGenesisBlock)
-        {
-            printf("Searching for genesis block...\n");
-            // This will figure out a valid hash and Nonce if you're
-            // creating a different genesis block:
-            uint256 hashTarget = CBigNum().SetCompact(block.nBits).getuint256();
-            uint256 thash;
-            char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
- 
-            loop
-            {
-                scrypt_1024_1_1_256_sp(BEGIN(block.nVersion), BEGIN(thash), scratchpad);
-                if (thash <= hashTarget)
-                    break;
-                if ((block.nNonce & 0xFFF) == 0)
-                {
-                    printf("nonce %08X: hash = %s (target = %s)\n", block.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
-                }
-                ++block.nNonce;
-                if (block.nNonce == 0)
-                {
-                    printf("NONCE WRAPPED, incrementing time\n");
-                    ++block.nTime;
-                }
-            }
-            printf("block.nTime = %u \n", block.nTime);
-            printf("block.nNonce = %u \n", block.nNonce);
-            printf("block.GetHash = %s\n", block.GetHash().ToString().c_str());
-           
-            }
+		
         block.print();
         assert(hash == hashGenesisBlock);
         // Start new block file
