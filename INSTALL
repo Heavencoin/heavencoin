@@ -1,0 +1,12 @@
+Building HeavenCoin
+
+See doc/readme-qt.rst for instructions on building HeavenCoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of HeavenCoin.
+
+See doc/build-*.txt for instructions on building heavencoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of HeavenCoin.
+
+Further build information and documentation is available at
+the official HeavenCoin website, http://www.heavencoin.com
