@@ -1,11 +1,11 @@
 HeavenCoin integration/staging tree
 ================================
 
-http://www.heavencoin.org/
+http://www.heavencoins.com/
 
 Copyright (c) 2009-2013 Bitcoin Developers
 Copyright (c) 2011-2013 Litecoin Developers
-Copyright (c) 2014 HeavenCoin Developers
+Copyright (c) 2016 HeavenCoin Developers
 
 What is HeavenCoin?
 ----------------
@@ -17,7 +17,7 @@ HeavenCoin is a lite version of Bitcoin using Scrypt-N-Fixed as a proof-of-work 
  - Adopted the S-Curve theory to block reward
 
 For more information, as well as an immediately useable, binary version of
-the HeavenCoin client sofware, see http://www.heavencoin.org/
+the HeavenCoin client sofware, see http://www.heavencoins.com/
 
 License
 -------
