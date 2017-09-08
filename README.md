@@ -14,7 +14,7 @@ Heavencoin first started in January 2017 as a variant of Litecoin using Scrypt a
 the Proof-of-Work hash algorithm.
  - 1 minute block target
  
- -10 000 000 000 coin	
+ - 10 000 000 000 coin	
  
  - Reward is predefine
 
