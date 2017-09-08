@@ -5,7 +5,7 @@ https://www.heavencoins.com
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
-Copyright (c) 2017 Heavencoin Developers
+Copyright (c) 2016 Heavencoin Developers
 
 What is Heavencoin?
 ----------------
@@ -13,8 +13,11 @@ What is Heavencoin?
 Heavencoin first started in January 2017 as a variant of Litecoin using Scrypt as
 the Proof-of-Work hash algorithm.
  - 1 minute block target
+ 
  -10 000 000 000 coin	
+ 
  - Reward is predefine
+
 Heavencoin is in transition to its own designed Proof-of-Stake-Velocity (PoSV) 
 
 License
