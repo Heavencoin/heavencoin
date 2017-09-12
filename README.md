@@ -1,7 +1,7 @@
 Heavencoin integration/staging tree
 ================================
 
-http://www.heavencoin.com
+https://www.heavencoins.com
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2016 Heavencoin Developers
