@@ -12,7 +12,7 @@ What is Heavencoin?
 Heavencoin first started in January 2017 as a variant of Litecoin using Scrypt as
 the Proof-of-Work hash algorithm.
  - 1 minute block target
- - 10 000 000 000 Coin Stake	
+ - 10 000 000 000 Stake Coins	
  - Difficulty Retarget: Every block using Kimoto's gravity well.
 Heavencoin is in transition to its own designed Proof-of-Stake-Velocity (PoSV) and Proof-of-Work(POW) 
 
