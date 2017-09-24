@@ -12,7 +12,6 @@ What is Heavencoin?
 Heavencoin first started in January 2017 as a variant of Litecoin using Scrypt as
 the Proof-of-Work hash algorithm.
  - 1 minute block target
-<<<<<<< HEAD
  - 500,000,000 Stake Coins	
  - Premine: First 10 block are 50,000,000 HVC 
  - Bonus reward for block 10,000 - 100,000 of 25 coins
@@ -31,12 +30,6 @@ Heavencoin is in transition to its own designed Proof-of-Stake-Velocity (PoSV) a
 - addnode = 104.131.61.63
 - rpcallowip=127.0.0.1
 
-=======
- - 10 000 000 000 Stake Coins	
- - Difficulty Retarget: Every block using Kimoto's gravity well.
-Heavencoin is in transition to its own designed Proof-of-Stake-Velocity (PoSV) and Proof-of-Work(POW) 
-
->>>>>>> 5bad4eceb6110f6b76393c681f64c376a62b8554
 License
 -------
 
