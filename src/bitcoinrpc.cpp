@@ -39,7 +39,11 @@ static boost::thread_group* rpc_worker_group = NULL;
 
 static inline unsigned short GetDefaultRPCPort()
 {
+<<<<<<< HEAD
     return GetBoolArg("-testnet", false) ?  44358: 44357;
+=======
+    return GetBoolArg("-testnet", false) ?  33458: 33457;
+>>>>>>> 5bad4eceb6110f6b76393c681f64c376a62b8554
 }
 
 Object JSONRPCError(int code, const string& message)
@@ -1072,7 +1076,11 @@ Object CallRPC(const string& strMethod, const Array& params)
     asio::ssl::stream<asio::ip::tcp::socket> sslStream(io_service, context);
     SSLIOStreamDevice<asio::ip::tcp> d(sslStream, fUseSSL);
     iostreams::stream< SSLIOStreamDevice<asio::ip::tcp> > stream(d);
+<<<<<<< HEAD
     if (!d.connect(GetArg("-rpcconnect", "127.0.0.1"), GetArg("-rpcport", "44356")))
+=======
+    if (!d.connect(GetArg("-rpcconnect", "127.0.0.1"), GetArg("-rpcport", "33456")))
+>>>>>>> 5bad4eceb6110f6b76393c681f64c376a62b8554
         throw runtime_error("couldn't connect to server");
 
     // HTTP basic authentication

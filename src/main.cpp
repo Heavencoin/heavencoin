@@ -1084,6 +1084,7 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
+<<<<<<< HEAD
     int64 nSubsidy = 50 * COIN;
 
     if (nHeight == 0) {
@@ -1101,6 +1102,25 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 	} else if (nHeight < 400000) {
         // Bonus reward for block 400,000 - 1,200,000 of 250 coins
         nSubsidy = 250 * COIN;
+=======
+    int64 nSubsidy = 1 * COIN;
+
+    if (nHeight == 0) {
+        // Genesis block
+        nSubsidy = 1 * COIN;
+    } else if (nHeight < 11) {
+        // Premine: First 10 block are 1,000,000,000 HVC 
+        nSubsidy = 1000000000 * COIN;
+    } else if (nHeight < 10000) {
+        // Bonus reward for block 10,000 to 400,000 of 1 coins
+        nSubsidy = 1 * COIN;
+    } else if (nHeight < 400000) {
+        // Bonus reward for block 400,000 - 800,000 of 5 coins
+        nSubsidy = 5 * COIN;
+	} else if (nHeight < 800000) {
+        // Bonus reward for block 800,000 - 1,200,000 of 25 coins
+        nSubsidy = 25 * COIN;
+>>>>>>> 5bad4eceb6110f6b76393c681f64c376a62b8554
     } else if (nHeight < 1200000) {
         // Bonus reward for block 1,200,000 - 1,600,000 of 915 coins
         nSubsidy = 915 * COIN;
