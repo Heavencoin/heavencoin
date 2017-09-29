@@ -24,8 +24,8 @@ Heavencoin is in transition to its own designed Proof-of-Stake-Velocity (PoSV) a
 
 - rpcuser=hvcuser
 - rpcpassword=hvcpasswrd
-- rpcport=44356
-- p2p = 44357
+- rpcport=44367
+- p2p = 44368
 - addnode = 165.227.127.71
 - addnode = 104.131.61.63
 - rpcallowip=127.0.0.1
