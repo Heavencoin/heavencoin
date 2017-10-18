@@ -14,10 +14,10 @@ the Proof-of-Work hash algorithm.
  - 1 minute block target
  - 500,000,000 Stake Coins	
  - Premine: First 10 block are 50,000,000 HVC 
- - Bonus reward for block 10,000 - 100,000 of 25 coins
- - Bonus reward for block 100,000 - 800,000 of 50 coins
- - Bonus reward for block 800,000 - 1,200,000 of 250 coins
- - Bonus reward for block 1,200,000 - 1,600,000 of 915 coins
+ - Bonus reward for block 11 - 10,000 of 25 coins
+ - Bonus reward for block 10,000 - 100,000 of 50 coins
+ - Bonus reward for block 100,000 - 400,000 of 250 coins
+ - Bonus reward for block 400,000 - 1,200,000 of 915 coins
  - Subsidy is cut in half every 400,000 blocks starting at block 1600000
  - Difficulty Retarget: Every block using Kimoto's gravity well.
 Heavencoin is in transition to its own designed Proof-of-Stake-Velocity (PoSV) and Proof-of-Work(POW) 
